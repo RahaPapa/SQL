@@ -1,0 +1,21 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+    <body>
+        <?php
+        function patient($pn, $last, $first_name, $insurance_name, $from_date, $to_date){
+        echo "$pn, $last, $first_name, $insurance_name, $from_date, $to_date <br>";
+    }
+       patient_1(001, "Builder", "Bob", "Medicare", 01-01-09, 01-01-10);
+       patient_2(002, "Kate", "Thomson", "Blue Cross", 06-01-09, 01-01-10);
+       patient_3(003, "Jimmy", "James", "Medicaid", 01-01-10, 01-01-11);
+       patient_4(004, "Mary", "Griffin", "Blue Shield", 01-01-11, 01-01-12);
+       patient_5(005, "Jack", "Durant", "Medicaid", 01-01-08, 01-01-09);
+       char
+
+      ?>
+    </body>
+    </html> 
